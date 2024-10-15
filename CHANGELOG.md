@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.2.0 (2024-10-15)
+
+### Features
+
+* feat(main.py): add main entry point to print "Hello, World!" for initial setup and testing ([`aee69bf`](https://github.com/aspatari/semver-playground-python/commit/aee69bfcfd5b490de30a8740690b0e6ede5852be))
+
+
 ## v0.1.0 (2024-10-15)
 
 ### Chores
