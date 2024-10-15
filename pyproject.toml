@@ -25,7 +25,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.semantic_release]
 version_toml = [
     "pyproject.toml:tool.poetry.version",
-    # "src/app/version.py:__version__",
+    "src/app/version.py:__version__",
 ]
 assets = []
 build_command_env = []
