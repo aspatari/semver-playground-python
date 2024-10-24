@@ -1,6 +1,20 @@
 # CHANGELOG
 
 
+## v0.3.0 (2024-10-24)
+
+### Bug Fixes
+
+* fix(pyproject.toml): comment out version.py reference to avoid errors in semantic release
+fix(version.py): change __version__ to a string format for consistency and clarity ([`a629aed`](https://github.com/aspatari/semver-playground-python/commit/a629aed6186f21cb58755658e49a88c5ee110c55))
+
+* fix(pyproject.toml): uncomment version.py path in version_toml to enable version tracking from the specified file ([`ed15cbe`](https://github.com/aspatari/semver-playground-python/commit/ed15cbe93eb7fcfd52032f533b0f359cd62b4d2c))
+
+### Features
+
+* feat(main.py): add main function to print passed argument and call it in the main block to enhance functionality ([`4dea12f`](https://github.com/aspatari/semver-playground-python/commit/4dea12f36a7a84ca52c6ddbd69bba47920631fe1))
+
+
 ## v0.2.0 (2024-10-15)
 
 ### Features
@@ -9,6 +23,10 @@
 
 
 ## v0.1.0 (2024-10-15)
+
+### Bug Fixes
+
+* fix(pyproject.toml): update version_toml configuration to use pyproject.toml for versioning to ensure consistency in version management ([`b3ad54f`](https://github.com/aspatari/semver-playground-python/commit/b3ad54ff66cf649fb830934e0863e1419588d42c))
 
 ### Chores
 
@@ -33,10 +51,6 @@ feat(pyproject.toml): add build_command to streamline the build process with poe
 
 * feat(pyproject.toml): add version_toml configuration for semantic release to track version in pyproject.toml and version.py
 feat(version.py): create version module to store version information and prevent manual edits ([`1d5fa8b`](https://github.com/aspatari/semver-playground-python/commit/1d5fa8badf3e8d7083cbb96d8997e972385fb0b7))
-
-### Fixes
-
-* fix(pyproject.toml): update version_toml configuration to use pyproject.toml for versioning to ensure consistency in version management ([`b3ad54f`](https://github.com/aspatari/semver-playground-python/commit/b3ad54ff66cf649fb830934e0863e1419588d42c))
 
 ### Unknown
 
